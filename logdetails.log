@@ -1,0 +1,385 @@
+2021-01-27 11:11:23.506  INFO 15920 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 15920 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 11:11:23.519  INFO 15920 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 11:11:26.246  INFO 15920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 11:11:26.575  INFO 15920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 202 ms. Found 1 JPA repository interfaces.
+2021-01-27 11:11:29.749  INFO 15920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 11:11:29.783  INFO 15920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 11:11:29.784  INFO 15920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 11:11:29.792  INFO 15920 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 11:11:29.793  INFO 15920 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 11:11:29.793  INFO 15920 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 11:11:29.882  INFO 15920 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 11:11:30.560  INFO 15920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 11:11:30.562  INFO 15920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6768 ms
+2021-01-27 11:11:31.827  INFO 15920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 11:11:32.100  INFO 15920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 11:11:33.092  INFO 15920 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 11:11:33.668  INFO 15920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 11:11:34.772  INFO 15920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 11:11:34.853  INFO 15920 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 11:11:43.032  INFO 15920 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 11:11:43.046  INFO 15920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 11:11:43.276  WARN 15920 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 11:11:43.760  INFO 15920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 11:11:45.387  INFO 15920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 11:11:45.413  INFO 15920 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 23.344 seconds (JVM running for 24.544)
+2021-01-27 11:47:37.972  INFO 20300 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 20300 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 11:47:37.992  INFO 20300 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 11:47:39.978  INFO 20300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 11:47:40.134  INFO 20300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 1 JPA repository interfaces.
+2021-01-27 11:47:41.761  INFO 20300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 11:47:41.781  INFO 20300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 11:47:41.782  INFO 20300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 11:47:41.785  INFO 20300 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 11:47:41.787  INFO 20300 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 11:47:41.788  INFO 20300 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 11:47:41.798  INFO 20300 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 11:47:42.065  INFO 20300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 11:47:42.066  INFO 20300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3934 ms
+2021-01-27 11:47:42.549  INFO 20300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 11:47:42.675  INFO 20300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 11:47:43.068  INFO 20300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 11:47:43.295  INFO 20300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 11:47:44.061  INFO 20300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 11:47:44.089  INFO 20300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 11:47:46.082  INFO 20300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 11:47:46.097  INFO 20300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 11:47:46.995  WARN 20300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 11:47:47.319  INFO 20300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 11:47:47.998  INFO 20300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 11:47:48.014  INFO 20300 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 11.216 seconds (JVM running for 12.561)
+2021-01-27 11:48:40.131  INFO 20300 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 11:48:40.133  INFO 20300 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 11:48:40.135  INFO 20300 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-27 11:55:29.941  INFO 760 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 760 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 11:55:29.954  INFO 760 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 11:55:32.250  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 11:55:32.438  INFO 760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interfaces.
+2021-01-27 11:55:34.377  INFO 760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 11:55:34.400  INFO 760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 11:55:34.402  INFO 760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 11:55:34.405  INFO 760 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 11:55:34.406  INFO 760 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 11:55:34.408  INFO 760 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 11:55:34.416  INFO 760 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 11:55:34.718  INFO 760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 11:55:34.721  INFO 760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4543 ms
+2021-01-27 11:55:35.283  INFO 760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 11:55:35.428  INFO 760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 11:55:35.876  INFO 760 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 11:55:36.120  INFO 760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 11:55:37.021  INFO 760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 11:55:37.050  INFO 760 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 11:55:39.428  INFO 760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 11:55:39.454  INFO 760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 11:55:40.409  WARN 760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 11:55:40.744  INFO 760 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 11:55:41.476  INFO 760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 11:55:41.493  INFO 760 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 12.85 seconds (JVM running for 14.026)
+2021-01-27 12:27:40.070  INFO 9228 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 9228 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:27:40.117  INFO 9228 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:27:43.264  INFO 9228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:27:43.488  INFO 9228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 187 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:27:49.280  INFO 9228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:27:49.341  INFO 9228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:27:49.342  INFO 9228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:27:49.345  INFO 9228 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:27:49.346  INFO 9228 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:27:49.346  INFO 9228 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:27:49.403  INFO 9228 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:27:49.809  INFO 9228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:27:49.811  INFO 9228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9452 ms
+2021-01-27 12:27:50.817  INFO 9228 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:27:50.957  INFO 9228 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:27:51.522  INFO 9228 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:27:51.928  INFO 9228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:27:53.411  INFO 9228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:27:53.490  INFO 9228 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:27:56.021  INFO 9228 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:27:56.051  INFO 9228 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:27:57.584  WARN 9228 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:27:57.974  INFO 9228 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:27:58.874  INFO 9228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:27:58.909  INFO 9228 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 20.645 seconds (JVM running for 22.147)
+2021-01-27 12:28:41.023  INFO 9228 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:28:41.025  INFO 9228 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:28:41.026  INFO 9228 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-27 12:29:36.007  INFO 10148 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 10148 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:29:36.016  INFO 10148 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:29:38.119  INFO 10148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:29:38.278  INFO 10148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:29:39.912  INFO 10148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:29:39.936  INFO 10148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:29:39.937  INFO 10148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:29:39.940  INFO 10148 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:29:39.941  INFO 10148 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:29:39.941  INFO 10148 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:29:39.947  INFO 10148 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:29:40.230  INFO 10148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:29:40.231  INFO 10148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4030 ms
+2021-01-27 12:29:40.736  INFO 10148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:29:40.914  INFO 10148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:29:41.372  INFO 10148 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:29:41.598  INFO 10148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:29:42.370  INFO 10148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:29:42.398  INFO 10148 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:29:44.755  INFO 10148 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:29:44.774  INFO 10148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:29:46.076  WARN 10148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:29:46.481  INFO 10148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:29:47.320  INFO 10148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:29:47.340  INFO 10148 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 12.454 seconds (JVM running for 13.677)
+2021-01-27 12:30:11.687  INFO 10148 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:30:11.688  INFO 10148 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:30:11.690  INFO 10148 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-27 12:34:36.579  INFO 14100 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 14100 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:34:36.585  INFO 14100 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:34:38.508  INFO 14100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:34:38.676  INFO 14100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:34:40.545  INFO 14100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:34:40.573  INFO 14100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:34:40.575  INFO 14100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:34:40.579  INFO 14100 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:34:40.581  INFO 14100 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:34:40.581  INFO 14100 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:34:40.590  INFO 14100 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:34:41.004  INFO 14100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:34:41.006  INFO 14100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4212 ms
+2021-01-27 12:34:41.612  INFO 14100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:34:41.794  INFO 14100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:34:42.279  INFO 14100 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:34:42.520  INFO 14100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:34:43.306  INFO 14100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:34:43.335  INFO 14100 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:34:45.916  INFO 14100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:34:45.935  INFO 14100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:34:46.990  WARN 14100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:34:47.319  INFO 14100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:34:48.103  INFO 14100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:34:48.122  INFO 14100 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 12.823 seconds (JVM running for 14.381)
+2021-01-27 12:34:51.944  INFO 14100 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:34:51.945  INFO 14100 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:34:51.947  INFO 14100 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-27 12:37:25.838  INFO 11708 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 11708 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:37:25.844  INFO 11708 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:37:28.013  INFO 11708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:37:28.321  INFO 11708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 282 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:37:29.960  INFO 11708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:37:29.987  INFO 11708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:37:29.988  INFO 11708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:37:29.995  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:37:29.997  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:37:29.997  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:37:30.006  INFO 11708 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:37:30.279  INFO 11708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:37:30.280  INFO 11708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4230 ms
+2021-01-27 12:37:30.859  INFO 11708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:37:30.997  INFO 11708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:37:31.529  INFO 11708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:37:31.779  INFO 11708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:37:32.661  INFO 11708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:37:32.696  INFO 11708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:37:35.041  INFO 11708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:37:35.060  INFO 11708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:37:36.109  WARN 11708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:37:36.445  INFO 11708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:37:37.096  INFO 11708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:37:37.115  INFO 11708 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 12.838 seconds (JVM running for 14.25)
+2021-01-27 12:37:52.440  INFO 11708 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:37:52.441  INFO 11708 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:37:52.443  INFO 11708 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-27 12:41:05.596  INFO 12168 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 12168 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:41:05.603  INFO 12168 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:41:07.652  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:41:07.828  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:41:09.617  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:41:09.653  INFO 12168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:41:09.654  INFO 12168 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:41:09.658  INFO 12168 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:41:09.658  INFO 12168 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:41:09.659  INFO 12168 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:41:09.672  INFO 12168 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:41:10.076  INFO 12168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:41:10.077  INFO 12168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4273 ms
+2021-01-27 12:41:10.620  INFO 12168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:41:10.731  INFO 12168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:41:11.121  INFO 12168 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:41:11.359  INFO 12168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:41:12.224  INFO 12168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:41:12.249  INFO 12168 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:41:14.661  INFO 12168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:41:14.678  INFO 12168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:41:15.613  WARN 12168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:41:15.950  INFO 12168 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:41:16.677  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:41:16.699  INFO 12168 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 12.653 seconds (JVM running for 14.063)
+2021-01-27 12:41:33.810  INFO 12168 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:41:33.811  INFO 12168 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:41:33.815  INFO 12168 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-01-27 12:42:25.473  INFO 16088 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 16088 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:42:25.481  INFO 16088 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:42:27.855  INFO 16088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:42:28.028  INFO 16088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:42:29.851  INFO 16088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:42:29.870  INFO 16088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:42:29.871  INFO 16088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:42:29.874  INFO 16088 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:42:29.874  INFO 16088 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:42:29.875  INFO 16088 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:42:29.882  INFO 16088 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:42:30.310  INFO 16088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:42:30.311  INFO 16088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4645 ms
+2021-01-27 12:42:31.087  INFO 16088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:42:31.213  INFO 16088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:42:31.866  INFO 16088 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:42:32.288  INFO 16088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:42:33.166  INFO 16088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:42:33.204  INFO 16088 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:42:35.489  INFO 16088 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:42:35.517  INFO 16088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:42:37.416  WARN 16088 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:42:37.855  INFO 16088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:42:38.782  INFO 16088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:42:38.936  INFO 16088 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 15.135 seconds (JVM running for 16.657)
+2021-01-27 12:43:44.026  INFO 16088 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:43:44.027  INFO 16088 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:43:44.031  INFO 16088 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-27 12:49:51.026  INFO 4108 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 4108 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 12:49:51.033  INFO 4108 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 12:49:53.342  INFO 4108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 12:49:53.509  INFO 4108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2021-01-27 12:49:55.323  INFO 4108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 12:49:55.342  INFO 4108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 12:49:55.343  INFO 4108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 12:49:55.347  INFO 4108 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 12:49:55.348  INFO 4108 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 12:49:55.349  INFO 4108 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 12:49:55.356  INFO 4108 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 12:49:55.654  INFO 4108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 12:49:55.655  INFO 4108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4400 ms
+2021-01-27 12:49:56.174  INFO 4108 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 12:49:56.354  INFO 4108 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 12:49:56.887  INFO 4108 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 12:49:57.120  INFO 4108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 12:49:57.880  INFO 4108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 12:49:57.915  INFO 4108 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 12:50:00.207  INFO 4108 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 12:50:00.225  INFO 4108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 12:50:01.380  WARN 4108 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 12:50:01.839  INFO 4108 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 12:50:02.500  INFO 4108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 12:50:02.517  INFO 4108 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 13.099 seconds (JVM running for 14.511)
+2021-01-27 12:50:20.802  INFO 4108 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 12:50:20.803  INFO 4108 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 12:50:20.806  INFO 4108 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-27 13:08:45.335  INFO 7944 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 7944 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 13:08:45.788  INFO 7944 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 13:09:22.246  INFO 7944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 13:09:29.720  INFO 7944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1274 ms. Found 1 JPA repository interfaces.
+2021-01-27 13:10:21.608  INFO 7944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 13:10:22.559  INFO 7944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 13:10:22.559  INFO 7944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 13:10:22.563  INFO 7944 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 13:10:22.563  INFO 7944 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 13:10:22.563  INFO 7944 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 13:10:26.692  INFO 7944 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 13:10:31.409  INFO 7944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 13:10:31.410  INFO 7944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102779 ms
+2021-01-27 13:10:40.938  INFO 7944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 13:10:49.845  INFO 7944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 13:11:09.121  INFO 7944 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 13:11:17.315  INFO 7944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 13:11:36.040  INFO 7944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 13:11:37.326  INFO 7944 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 13:12:13.786  INFO 7944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 13:12:13.856  INFO 7944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 13:12:21.929  WARN 7944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 13:12:23.536  INFO 7944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 13:12:29.086  INFO 7944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 13:12:29.225  INFO 7944 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 247.386 seconds (JVM running for 256.409)
+2021-01-27 13:12:46.425  INFO 7944 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 13:12:46.426  INFO 7944 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 13:12:46.427  INFO 7944 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-27 13:14:27.510  INFO 9192 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 9192 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 13:14:27.517  INFO 9192 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 13:14:29.625  INFO 9192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 13:14:29.798  INFO 9192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+2021-01-27 13:14:31.308  INFO 9192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 13:14:31.330  INFO 9192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 13:14:31.331  INFO 9192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 13:14:31.335  INFO 9192 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 13:14:31.336  INFO 9192 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 13:14:31.336  INFO 9192 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 13:14:31.345  INFO 9192 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 13:14:31.619  INFO 9192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 13:14:31.620  INFO 9192 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3882 ms
+2021-01-27 13:14:32.218  INFO 9192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 13:14:32.354  INFO 9192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 13:14:32.779  INFO 9192 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 13:14:33.035  INFO 9192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 13:14:33.824  INFO 9192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 13:14:33.855  INFO 9192 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 13:14:36.277  INFO 9192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 13:14:36.305  INFO 9192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 13:14:38.652  WARN 9192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 13:14:39.258  INFO 9192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 13:14:41.230  INFO 9192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 13:14:41.251  INFO 9192 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 15.18 seconds (JVM running for 17.002)
+2021-01-27 13:14:53.346  INFO 9192 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 13:14:53.349  INFO 9192 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 13:14:53.351  INFO 9192 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-27 13:18:19.104  INFO 12852 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 12852 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 13:18:19.110  INFO 12852 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 13:18:21.194  INFO 12852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 13:18:21.374  INFO 12852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interfaces.
+2021-01-27 13:18:23.363  INFO 12852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 13:18:23.389  INFO 12852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 13:18:23.390  INFO 12852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 13:18:23.395  INFO 12852 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 13:18:23.395  INFO 12852 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 13:18:23.396  INFO 12852 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 13:18:23.404  INFO 12852 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 13:18:23.665  INFO 12852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 13:18:23.666  INFO 12852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4396 ms
+2021-01-27 13:18:24.183  INFO 12852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 13:18:24.341  INFO 12852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 13:18:24.778  INFO 12852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 13:18:24.987  INFO 12852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 13:18:25.715  INFO 12852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 13:18:25.755  INFO 12852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 13:18:27.759  INFO 12852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 13:18:27.789  INFO 12852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 13:18:28.686  WARN 12852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 13:18:28.956  INFO 12852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 13:18:29.563  INFO 12852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 13:18:29.579  INFO 12852 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 11.956 seconds (JVM running for 13.321)
+2021-01-27 13:18:32.784  INFO 12852 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 13:18:32.785  INFO 12852 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-27 13:18:32.786  INFO 12852 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-27 13:24:55.091  INFO 19660 --- [main] com.BankingApp.BankingAppApplication     : Starting BankingAppApplication using Java 14.0.2 on LAPTOP-DPT4DKC2 with PID 19660 (C:\Users\vasuvaddi123\eclipse-workspace\BankingApp\target\classes started by vasuvaddi123 in C:\Users\vasuvaddi123\eclipse-workspace\BankingApp)
+2021-01-27 13:24:55.098  INFO 19660 --- [main] com.BankingApp.BankingAppApplication     : No active profile set, falling back to default profiles: default
+2021-01-27 13:24:56.923  INFO 19660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-27 13:24:57.094  INFO 19660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+2021-01-27 13:24:58.746  INFO 19660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9095 (http)
+2021-01-27 13:24:58.763  INFO 19660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-27 13:24:58.763  INFO 19660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-27 13:24:58.766  INFO 19660 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-01-27 13:24:58.766  INFO 19660 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-27 13:24:58.766  INFO 19660 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-27 13:24:58.772  INFO 19660 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-01-27 13:24:59.072  INFO 19660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-27 13:24:59.074  INFO 19660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3779 ms
+2021-01-27 13:24:59.586  INFO 19660 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-27 13:24:59.736  INFO 19660 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-27 13:25:00.226  INFO 19660 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-27 13:25:00.439  INFO 19660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-27 13:25:01.192  INFO 19660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-27 13:25:01.220  INFO 19660 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-27 13:25:03.311  INFO 19660 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-27 13:25:03.334  INFO 19660 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-27 13:25:04.150  WARN 19660 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-27 13:25:04.432  INFO 19660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 13:25:05.089  INFO 19660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9095 (http) with context path ''
+2021-01-27 13:25:05.107  INFO 19660 --- [main] com.BankingApp.BankingAppApplication     : Started BankingAppApplication in 11.425 seconds (JVM running for 12.779)
+2021-01-27 13:25:21.080  INFO 19660 --- [http-nio-9095-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-27 13:25:21.081  INFO 19660 --- [http-nio-9095-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
